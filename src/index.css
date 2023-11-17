@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Header component */
+.app{
+  background-color: black;
+  color: white;
+  height: 10vh;
+  text-align: center;
+}
+.app h1{
+  padding-top: 1vh;
+}
+
+/* dropdown */
+.drop{
+  display: flex;
+  margin-bottom: 2vh;
+}
+.drop p{
+  margin: 2vh 0 0 2vw;
+  font-size: larger;
+  font-weight: bold;
+}
+.dropdown{
+  display: inline;
+}
+.drop1{
+  margin:2vh 0 2vh 5vw;
+}
+
+.drop2{
+  margin: 2vh;
+}
+
+.filter{
+  border-radius: 50px;
+  background: purple;
+  color: white;
+  width: 8vw;
+  height: 5vh;
+  font-size: large;
+  border-style: none;
+  border: 2px solid black;
+  margin-top: 2vh;
+}
